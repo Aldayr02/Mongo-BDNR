@@ -8,7 +8,7 @@ import requests
 # Set logger
 log = logging.getLogger()
 log.setLevel("INFO")
-handler = logging.FileHandler("books.log")
+handler = logging.FileHandler("flights.log")
 handler.setFormatter(
     logging.Formatter("%(asctime)s [%(levelname)s] %(name)s: %(message)s")
 )
